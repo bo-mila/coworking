@@ -28,6 +28,9 @@ ul {
 ul li {
   list-style: none;
 }
+p {
+  margin: 0;
+}
 .container {
   margin:0 auto;
   width: 1060px;
@@ -89,11 +92,6 @@ ul li {
 .sidebar {
   display: inline-block;
   width: 19%;
-  vertical-align: top;
-}
-.main-content {
-  display: inline-block;
-  width: 80%;
   vertical-align: top;
 }
 .nav {
@@ -158,6 +156,76 @@ ul li {
 .nav__link--icon--tariff:hover:before {
   background-image: url('./img/wallet_icon-hover.png');
 }
-.features h4 {
+.main-content {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+}
+.features {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  color: #221f1f;
+}
+.features h2 {
   margin: 0;
+  font-size: 49px;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+.features__item {
+  display: inline-block;
+  width: 26%;
+  text-align: center;
+  vertical-align: top;
+  margin-right: 42px;
+}
+.features__item:last-child {
+  margin-right: 0;
+}
+.features__img {
+  display: block;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #27273e;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.features__img img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.features h4 {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.64px;
+  color: #212121;
+  margin-bottom: 28px;
+}
+.features__desc {
+  font-size: 18px;
+  line-height: 2;
+}
+.features__desc ul {
+  padding-left: 30px;
+}
+.features__desc li {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+.features__desc li::before {
+  content: "";
+  background-color: #cc3366;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  margin-right: 20px;
+  display: inline-block;
 }
