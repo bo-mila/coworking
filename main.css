@@ -140,7 +140,6 @@ p {
   margin-right: 16px;
   background: center center /contain no-repeat;
   transition: .7s;
-
 }
 .nav__link--icon--main::before {
   background-image: url('./img/main_icon.png');
@@ -336,24 +335,23 @@ p {
 }
 .pagelist__item {
   display: inline-block;
+  font-weight: 600;
+  margin-right: 5px;
 }
-.pagelist__item--active .pagepoint {
+.pagelist__item:last-child {
+  margin-right: 0;
+}
+.pagelist__item--active .pagelist__link {
   background-color: #27273e;
   color: #fff;
 }
-.pagepoint {
-  width: 25px;
-  height: 25px;
-  border-radius: 3px;
-  vertical-align: middle;
-  position: relative;
-}
 .pagelist__link {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 4px;
   vertical-align: middle;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  line-height: 1.5;
+  padding: 0 6px;
 }
 .page-next {
   display: inline-block;
@@ -405,22 +403,17 @@ p {
 .network__item {
   display: inline-block;
   margin-right: 6px;
+  position: relative;
+  background-color: #d4d4d8;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: .7s;
 }
 .network__item:last-child {
   margin-right: 0;
 }
-.network__ref {
-  display: block;
-}
-.network__icon {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  background-color: #d4d4d8;
-  transition: .7s;
-}
-.network__icon:hover {
+.network__item:hover {
   background-color: #ec1e79;
 }
 .network__pic {
