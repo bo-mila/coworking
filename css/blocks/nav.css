@@ -19,7 +19,7 @@
 .nav__item--active .nav__link--icon--feed:before {
   background-image: url('../../img/feed_icon-hover.png');
 }
-.nav__item--active .nav__link--icon--wallet:before {
+.nav__item--active .nav__link--icon--tariff:before {
   background-image: url('../../img/wallet_icon-hover.png');
 }
 .nav__item--active {

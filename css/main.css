@@ -10,6 +10,7 @@
 @import url('./blocks/nav.css');
 @import url('./blocks/main-content.css');
 @import url('./blocks/main-content-reviews.css');
+@import url('./blocks/main-content-tariffs.css');
 @import url('./blocks/features.css');
 @import url('./blocks/news.css');
 @import url('./blocks/pagination.css');
@@ -21,6 +22,7 @@
 @import url('./blocks/network.css');
 @import url('./blocks/title.css');
 @import url('./blocks/img-for-billet-hor.css');
+@import url('./blocks/img-for-billet-ver.css');
 @import url('./blocks/billet-hor.css');
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/reviews.css');
@@ -29,3 +31,8 @@
 @import url('./blocks/form.css');
 @import url('./blocks/option.css');
 @import url('./blocks/buttons.css');
+@import url('./blocks/tariffs.css');
+@import url('./blocks/billet-ver.css');
+@import url('./blocks/partners.css');
+@import url('./blocks/partner.css');
+@import url('./blocks/img-for-partner.css');
