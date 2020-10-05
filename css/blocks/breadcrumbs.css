@@ -1,0 +1,32 @@
+.breadcrumbs {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.29;
+  color: rgba(236, 30, 121, 0.8);
+}
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.breadcrumbs__item::before {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+}
+.breadcrumbs__item:first-child::before{
+  display: none;
+}
+.breadcrumbs__item--active .breadcrumbs__link{
+  color: rgba(34, 31, 31, 0.8);
+  text-decoration: none;
+}
+.breadcrumbs__item--active::before {
+  color: rgba(34, 31, 31, 0.8);
+}
+.breadcrumbs__link {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: underline;
+  font-style: italic;
+}

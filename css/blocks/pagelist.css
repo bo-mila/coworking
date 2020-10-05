@@ -1,0 +1,26 @@
+.pagelist {
+  display: inline-block;
+  margin-right: 15px;
+  color: #221f1f;
+  vertical-align: middle;
+}
+.pagelist__item {
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.pagelist__item:last-child {
+  margin-right: 0;
+}
+.pagelist__item--active .pagelist__link {
+  background-color: #27273e;
+  color:#ec1e79;
+}
+.pagelist__link {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 4px;
+  vertical-align: middle;
+  line-height: 1.5;
+  padding: 0 6px;
+}

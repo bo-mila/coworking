@@ -1,0 +1,19 @@
+.stock {
+  background-color: #27273e;
+  padding: 48px 0;
+  background-image: url('../../img/pattern.png');
+}
+.stock__container {
+  width: 60%;
+}
+.stock p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #ffffff;
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+}
+.stock b {
+  font-weight: bold;
+  color: #ec1e79;
+}

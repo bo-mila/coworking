@@ -1,0 +1,33 @@
+.network {
+  font-weight: bold;
+  text-align: left;
+}
+.network h5 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.network__item {
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+  background-color: #d4d4d8;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: .7s;
+}
+.network__item:last-child {
+  margin-right: 0;
+}
+.network__item:hover {
+  background-color: #ec1e79;
+}
+.network__pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

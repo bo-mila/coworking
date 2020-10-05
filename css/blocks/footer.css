@@ -1,0 +1,21 @@
+.footer {
+  padding: 12px 0;
+  background-color: #27273e;
+  color: #fff;
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__withlove {
+  width: 24%;
+}
+.footer__loftschool {
+  text-decoration: underline;
+}
+.footer__network {
+  text-align: right;
+}
