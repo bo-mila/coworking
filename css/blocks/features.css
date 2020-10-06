@@ -1,9 +1,12 @@
 .features {
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
-  margin-bottom: 74px;
+  margin-bottom: 75px;
 }
 .features h1 {
-  margin-bottom: 55px;
+  margin-bottom: 53px;
+}
+.features__list {
+  width: 95%;
 }
 .features__item {
   display: inline-block;
@@ -51,7 +54,7 @@
   margin-bottom: 5px;
 }
 .feature__desc ul {
-  width: 70%;
+  width: 78%;
   margin: 0 auto;
 }
 .feature__desc li {

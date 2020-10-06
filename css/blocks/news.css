@@ -1,12 +1,13 @@
 .news {
   color: #221f1f;
-  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  padding-bottom: 24px;
 }
 .news h2 {
-  margin-bottom: 68px;
+  margin-bottom: 67px;
 }
 .news__list {
-  margin-bottom: 63px;
+  margin-bottom: 18px;
 }
 .news__item {
   margin-bottom: 22px;

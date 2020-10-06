@@ -16,6 +16,9 @@
 .footer__loftschool {
   text-decoration: underline;
 }
+.footer__logo {
+  width: 17%;
+}
 .footer__network {
   text-align: right;
 }

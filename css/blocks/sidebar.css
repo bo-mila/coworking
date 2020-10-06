@@ -1,3 +1,6 @@
 .sidebar {
-  width: 18%;
+  width: 17%;
+}
+.sidebar--main {
+  padding-top: 8px;
 }
