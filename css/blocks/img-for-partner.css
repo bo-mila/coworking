@@ -1,0 +1,10 @@
+.img-for-partner {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: .8s;
+}
+.img-for-partner:hover {
+  filter: grayscale(0%);
+}

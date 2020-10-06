@@ -1,0 +1,14 @@
+.tariffs {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+}
+.tariffs__title {
+  margin-bottom: 40px;
+}
+.tariffs__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tariffs__item {
+  width: calc(100% /3 - 20px);
+}

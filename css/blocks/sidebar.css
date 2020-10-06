@@ -1,0 +1,9 @@
+.sidebar {
+  width: 17%;
+}
+.sidebar--main {
+  padding-top: 8px;
+}
+.sidebar--comments-tariffs {
+  padding-top: 5px;
+}
