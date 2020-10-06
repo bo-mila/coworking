@@ -1,10 +1,10 @@
 .stock {
   background-color: #27273e;
-  padding: 48px 0;
+  padding: 40px 0 44px;
   background-image: url('../../img/pattern.png');
 }
 .stock__container {
-  width: 60%;
+  width: 58%;
 }
 .stock p {
   font-size: 18px;
