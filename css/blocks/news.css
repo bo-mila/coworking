@@ -1,13 +1,13 @@
 .news {
   color: #221f1f;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  padding-bottom: 24px;
+  padding-bottom: 28px;
 }
 .news h2 {
   margin-bottom: 67px;
 }
 .news__list {
-  margin-bottom: 18px;
+  margin-bottom: 22px;
 }
 .news__item {
   margin-bottom: 22px;
