@@ -8,6 +8,9 @@
   display: inline-block;
   font-weight: 600;
 }
+.pagelist__item:hover {
+  color: #ae2265;
+}
 .pagelist__item--active .pagelist__link {
   background-color: #27273e;
   color:#ec1e79;

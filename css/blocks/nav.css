@@ -5,13 +5,16 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
   color: #ec1e79;
+  width: 45%;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav__item {
-  margin-bottom: 30px;
   transition: .7s;
-}
-.nav__item:last-child {
-  margin-bottom: 0;
 }
 .nav__item--active .nav__link--icon--main::before {
   background-image: url('../../img/main_icon-hover.png');
