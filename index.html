@@ -1,236 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1100, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
+  <title>Приветствую</title>
   <link rel="stylesheet" href="./css/main.css">
-  <title>Coworking</title>
 </head>
 <body>
   <div class="wrapper">
     <div class="wrapper__content">
-      <header class="header header--main">
-        <div class="container header__container">
-          <div class="header__logo logo">
-            <a href="#" class="logo__ref">
-              <img src="./img/logo-fig.png" alt="Лого на главную страницу" class="logo__ref-img">
-            </a>
+      <div class="auth">
+        <div class="auth__container">
+          <div class="welcome">
+            <div class="welcome__logo">
+              <img src="./img/logo-intro.png" alt="" class="welcome__img">
+            </div>
+            <a href="./main.html" class="welcome__btn">перейти на сайт</a>
           </div>
-          <address class="header__contacts contacts">
-            <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-            <a href="" class="contacts__hours">График работы</a>
-          </address>
-        </div>
-      </header>
-      <div class="content">
-        <section class="slogan">
-          <img src="./img/banner.png" class="slogan__img" alt="Слоган Коворкинг твоей мечты">
-        </section>
-        <div class="container content__container">
-          <aside class="sidebar sidebar--main">
-            <nav class="sidebar__nav nav">
-              <ul class="nav__list">
-                <li class="nav__item nav__item--active">
-                  <a href="#" class="nav__link nav__link--icon--main">главная</a>
-                </li>
-                <li class="nav__item">
-                  <a href="comments.html" class="nav__link nav__link--icon--feed">отзывы</a>
-                </li>
-                <li class="nav__item">
-                  <a href="tariffs.html" class="nav__link nav__link--icon--tariff">тарифы</a>
-                </li>
-              </ul>
-            </nav>
-          </aside>
-          <main class="main-content">
-            <section class="features">
-              <h1 class="features__title title">Особенности</h1>
-              <ul class="features__list">
-                <li class="features__item feature">
-                  <div class="feature__img">
-                    <img src="./img/flower.png" alt="" class="feature__pic">
-                  </div>
-                  <h4>уникальность</h4>
-                  <div class="feature__desc">
-                    <p>Создан для вашего комфортного отдыха</p>
-                    <ul>
-                      <li>Кофе/чай</li>
-                      <li>Шкаф</li>
-                      <li>Рабочее место</li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="features__item feature">
-                  <div class="feature__img">
-                    <img src="./img/star.png" alt="" class="feature__pic">
-                  </div>
-                  <h4>премиум-класс</h4>
-                  <div class="feature__desc">
-                    <p>Для любителей хороших впечатлений</p>
-                    <ul>
-                      <li>Обед+кофе</li>
-                      <li>Шкаф (10 кг)</li>
-                      <li>Детское кресло</li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="features__item feature">
-                  <div class="feature__img">
-                    <img src="./img/palette.png" alt="" class="feature__pic">
-                  </div>
-                  <h4>лакшери-стулья</h4>
-                  <div class="feature__desc">
-                    <p>Все самое лучшее и незабываемое</p>
-                    <ul>
-                      <li>Джакузи</li>
-                      <li>Шкаф (15 кг)</li>
-                      <li>Табуретка</li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </section>
-            <section class="news">
-              <h2 class="news__title title">Последние новости</h2>
-              <ul class="news__list">
-                <li class="news__item billet-hor">
-                  <div class="billet-hor__img">
-                    <div class="billet-hor__pic">
-                      <img src="./img/imgnews1.png" alt="Картинка новости" class="img-for-billet-hor">
-                    </div>
-                  </div>
-                  <div class="billet-hor__desc">
-                    <div class="billet-hor__data">
-                      <span>12.10.2016</span>
-                    </div>
-                    <div class="billet-hor__title">
-                      <h4>Чёрная дыра скидок!</h4>
-                    </div>
-                    <div class="billet-hor__text">
-                      <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="news__item billet-hor">
-                  <div class="billet-hor__img">
-                    <div class="billet-hor__pic">
-                      <img src="./img/imgnews2.png" alt="Картинка новости" class="img-for-billet-hor">
-                    </div>
-                  </div>
-                  <div class="billet-hor__desc">
-                    <div class="billet-hor__data">
-                      <span>01.02.2016</span>
-                    </div>
-                    <div class="billet-hor__title">
-                      <h4>Заражай друзей, получай призы!</h4>
-                    </div>
-                    <div class="billet-hor__text">
-                      <p>Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="news__item billet-hor">
-                  <div class="billet-hor__img">
-                    <div class="billet-hor__pic">
-                      <img src="./img/imgnews3.png" alt="Картинка новости" class="img-for-billet-hor">
-                    </div>
-                  </div>
-                  <div class="billet-hor__desc">
-                    <div class="billet-hor__data">
-                      <span>22.12.2015</span>
-                    </div>
-                    <div class="billet-hor__title">
-                      <h4>Фрилансер? Выпрями спину!</h4>
-                    </div>
-                    <div class="billet-hor__text">
-                      <p class="news__text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса.
-                        Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <div class="pagination">
-                <div class="pagination__display">Страница 1 из 7</div>
-                <div class="pagination__nav">
-                  <a href="#" class="pagination__prew">&lt</a>
-                  <ul class="pagelist">
-                    <li class="pagelist__item pagelist__item--active">
-                      <a href="#" class="pagelist__link">1</a>
-                    </li>
-                    <li class="pagelist__item">
-                      <a href="#" class="pagelist__link">2</a>
-                    </li>
-                    <li class="pagelist__item">
-                      <a href="#" class="pagelist__link">3</a>
-                    </li>
-                    <li class="pagelist__item">
-                      <a href="#" class="pagelist__link">4</a>
-                    </li>
-                    <li class="pagelist__item">
-                      <a href="#" class="pagelist__link">5</a>
-                    </li>
-                    <li class="pagelist__item">
-                      <a href="#" class="pagelist__link">6</a>
-                    </li>
-                    <li class="pagelist__item">
-                      <a href="#" class="pagelist__link">7</a>
-                    </li>
-                  </ul>
-                  <a href="#" class="pagination__next">&gt</a>
-                </div>
-              </div>
-            </section>
-          </main>
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="container footer__container">
-        <div class="footer__withlove withlove">
-          <p>Сделано с любовью и старанием <br> на курсе "HTML+CSS" в 
-            <a href="http://loftschool.com" class="footer__loftschool"
-            target="_blank">LoftScool</a>.<br> Автор работы: 
-            <a href="http://loftschool.com" class="footer__author"
-              target="_blank">Прохладов Вадим</a>.
-          </p>
-        </div>
-        <div class="footer__logo logo">
-          <a href="" class="logo__ref">
-            <img src="./img/logo-fig.png" alt="Лого на главную страницу" class="logo__ref-img">
-          </a>
-        </div>
-        <div class="footer__network network">
-          <h5 class="network__title">Наши социальные сети</h5>
-          <ul class="network__list">
-            <li class="network__item">
-              <a href="https://vk.com" class="network__ref" target="_blank">
-                <img src="./img/vk.png" alt="Иконка ВК" class="network__pic icon-vk">
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://facebook.com" class="network__ref" target="_blank">
-                <img src="./img/fb.png" alt="Иконка facebook" class="network__pic icon-fb">
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://google.com" class="network__ref" target="_blank">
-                <img src="./img/google.png" alt="Иконка google" class="network__pic icon-gl">
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://twitter.com" class="network__ref" target="_blank">
-                <img src="./img/twitter.png" alt="Иконка twitter" class="network__pic icon-tw">            
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://mail.ru" class="network__ref" target="_blank">
-                <img src="./img/mail.png" alt="Иконка mail" class="network__pic icon-ml">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
   </div>
 </body>
 </html>

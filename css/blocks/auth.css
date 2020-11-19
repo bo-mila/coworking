@@ -1,0 +1,78 @@
+.auth {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./../../img/back-intro.png') center center / cover no-repeat;
+}
+.auth::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 30, 121, 0.15);
+}
+.auth__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 20;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: screw .8s 1s forwards;
+}
+.welcome__logo {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 29px;
+}
+.welcome__img {
+  display: block;
+  min-width: 160px;
+}
+.welcome__btn {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.2px;
+  color: #ec1e79;
+  border: solid 3px #ec1e79;
+  padding: 16px 22px;
+  text-transform: uppercase;
+  transition: .6s;
+}
+.welcome__btn:hover {
+  color: white;
+  background-color: #ec1e79;
+}
+@keyframes screw {
+  0% {
+    transform: scale(.2) rotate(40deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    /* transform: rotate(0); */
+    opacity: 1;
+  }
+}
