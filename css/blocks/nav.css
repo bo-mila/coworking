@@ -17,16 +17,37 @@
   align-items: center;
 }
 .nav__item {
-  transition: .7s;
+  transition: .6s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 35px;
 }
-.nav__item--active .nav__link--icon--main::before {
-  background-image: url('../../img/main_icon-hover.png');
+.nav__item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-image: url('../../img/sprite-nav.png');
+  transition: .6s;
 }
-.nav__item--active .nav__link--icon--feed:before {
-  background-image: url('../../img/feed_icon-hover.png');
+.nav__item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-image: url('../../img/sprite-nav.png');
+  transition: .6s;
+  opacity: 0;
 }
-.nav__item--active .nav__link--icon--tariff:before {
-  background-image: url('../../img/wallet_icon-hover.png');
+.nav__item--active:before {
+  opacity: 0;
+}
+.nav__item--active::after {
+  opacity: 1;
 }
 .nav__item--active {
   color: #000000;
@@ -34,34 +55,43 @@
 .nav__item:hover {
   color: #000000;
 }
+.nav__item:hover:before {
+  opacity: 0;
+}
+.nav__item:hover:after {
+  opacity: 1;
+}
 .nav__link {
   display: flex;
   align-items: center;
 }
-.nav__link::before {
-  flex-shrink: 0;
-  content: "";
+.nav__item--main::before {
+  width: 17px;
+  height: 15px;
+  background-position: -90px -10px;
+}
+.nav__item--feed::before {
   width: 20px;
   height: 18px;
-  margin-right: 16px;
-  background: center center /contain no-repeat;
-  transition: .7s;
+  background-position: -10px -10px;
 }
-.nav__link--icon--main::before {
-  background-image: url('../../img/main_icon.png');
+.nav__item--tariff::before {
+  width: 19px;
+  height: 16px;
+  background-position: -10px -48px;
 }
-.nav__link--icon--feed::before {
-  background-image: url('../../img/feed_icon.png');
+.nav__item--main::after {
+  width: 17px;
+  height: 15px;
+  background-position: -90px -45px;
 }
-.nav__link--icon--tariff::before {
-  background-image: url('../../img/wallet_icon.png');
+.nav__item--feed::after {
+  width: 20px;
+  height: 18px;
+  background-position: -50px -10px;
 }
-.nav__link--icon--main:hover::before {
-  background-image: url('../../img/main_icon-hover.png');
-}
-.nav__link--icon--feed:hover:before {
-  background-image: url('../../img/feed_icon-hover.png');
-}
-.nav__link--icon--tariff:hover:before {
-  background-image: url('../../img/wallet_icon-hover.png');
+.nav__item--tariff::after {
+  width: 19px;
+  height: 16px;
+  background-position: -49px -48px;
 }
