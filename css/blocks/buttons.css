@@ -4,14 +4,18 @@
 .buttons__res, .buttons__sub {
   padding: 13px 20px;
   background-color:#27273e;
-  border-radius: 5px;
+  border-radius: 4px;
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
   letter-spacing: 2.4px;
+  transition: .6s;
 }
 .buttons__res {
   margin-right: 7px;
+}
+.buttons__res:hover, .buttons__sub:hover {
+  background-color: #ec1e79;
 }

@@ -4,5 +4,6 @@
 } */
 .content__container {
   display: flex;
+  padding-top: 30px;
   padding-bottom: 57px;
 }

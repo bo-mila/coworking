@@ -5,7 +5,10 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
   color: #ec1e79;
-  width: 45%;
+  width: 60%;
+}
+.nav--comments-tariffs {
+  margin-bottom: 30px;
 }
 .nav__list {
   display: flex;
