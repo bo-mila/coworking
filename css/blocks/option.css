@@ -2,17 +2,21 @@
   display: flex;
   flex-direction: row;
   margin-right: 20px;
+  cursor: pointer;
+}
+.radio {
+  display: none;
 }
 .option:last-child {
   margin-right: 0;
 }
-.option--active {
+.radio:checked~ .option__title {
   color: #ec1e79;
 }
-.option--active .option__radio {
+.radio:checked~ .option__radio {
   border-color:#ec1e79;
 }
-.option--active .option__radio::after {
+.radio:checked ~ .option__radio::after {
   background-color: #ec1e79;
 }
 .option__radio {

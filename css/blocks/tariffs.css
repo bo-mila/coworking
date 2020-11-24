@@ -2,7 +2,7 @@
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
 }
 .tariffs__title {
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 }
 .tariffs__list {
   display: flex;
@@ -10,5 +10,5 @@
   flex-wrap: wrap;
 }
 .tariffs__item {
-  width: calc(100% /3 - 20px);
+  width: calc(100% /3 - 15px);
 }

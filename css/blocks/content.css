@@ -1,7 +1,15 @@
-.content--comments-tariffs {
+/* .content--comments-tariffs {
   padding-top: 39px;
   padding-bottom: 60px;
-}
+} */
 .content__container {
   display: flex;
+  padding-top: 30px;
+  padding-bottom: 56px;
+}
+.content__container--main {
+  padding-top: 17px;
+}
+.content__container--tariffs {
+  padding-bottom: 0;
 }

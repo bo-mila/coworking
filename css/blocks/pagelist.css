@@ -7,6 +7,10 @@
 .pagelist__item {
   display: inline-block;
   font-weight: 600;
+  transition: .6s;
+}
+.pagelist__item:hover {
+  color: #ae2265;
 }
 .pagelist__item--active .pagelist__link {
   background-color: #27273e;

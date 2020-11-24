@@ -1,5 +1,5 @@
 .footer {
-  padding: 12px 0;
+  padding: 11px 0;
   background-color: #27273e;
   color: #fff;
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
@@ -15,10 +15,4 @@
 }
 .footer__loftschool {
   text-decoration: underline;
-}
-.footer__logo {
-  width: 17%;
-}
-.footer__network {
-  text-align: right;
 }
