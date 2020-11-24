@@ -5,7 +5,7 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
   color: #ec1e79;
-  width: 60%;
+  width: 50%;
 }
 .nav--comments-tariffs {
   margin-bottom: 30px;
@@ -13,7 +13,7 @@
 .nav__list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .nav__item {
@@ -22,7 +22,14 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding-left: 35px;
+  padding-left: 37px;
+  /* margin-right: 90px; */
+}
+.nav--main .nav__item {
+  color: #fff;
+}
+.nav__item:last-child {
+  margin-right: 0;
 }
 .nav__item::before {
   content: "";
@@ -52,8 +59,14 @@
 .nav__item--active {
   color: #000000;
 }
+.nav--main .nav__item--active {
+  color: #ec1e79;
+}
 .nav__item:hover {
   color: #000000;
+}
+.nav--main .nav__item:hover {
+  color: #ec1e79;
 }
 .nav__item:hover:before {
   opacity: 0;
@@ -68,9 +81,19 @@
 .nav__item--main::before {
   width: 17px;
   height: 15px;
-  background-position: -90px -10px;
+  background-position: -10px -86px;
+}
+.nav--main .nav__item--main::before {
+  width: 17px;
+  height: 15px;
+  background-position: -10px -86px;
 }
 .nav__item--feed::before {
+  width: 20px;
+  height: 18px;
+  background-position: -10px -48px;
+}
+.nav--main .nav__item--feed::before {
   width: 20px;
   height: 18px;
   background-position: -10px -10px;
@@ -78,20 +101,40 @@
 .nav__item--tariff::before {
   width: 19px;
   height: 16px;
-  background-position: -10px -48px;
+  background-position: -90px -10px;
+}
+.nav--main .nav__item--tariff::before {
+  width: 19px;
+  height: 16px;
+  background-position: -50px -48px;
 }
 .nav__item--main::after {
   width: 17px;
   height: 15px;
-  background-position: -90px -45px;
+  background-position: -47px -86px;
+}
+.nav--main .nav__item--main::after {
+  width: 17px;
+  height: 15px;
+  background-position: -10px -86px;
 }
 .nav__item--feed::after {
   width: 20px;
   height: 18px;
   background-position: -50px -10px;
 }
+.nav--main .nav__item--feed::after {
+  width: 20px;
+  height: 18px;
+  background-position: -10px -48px;
+}
 .nav__item--tariff::after {
   width: 19px;
   height: 16px;
-  background-position: -49px -48px;
+  background-position: -90px -46px;
+}
+.nav--main .nav__item--tariff::after {
+  width: 19px;
+  height: 16px;
+  background-position: -90px -10px;
 }
