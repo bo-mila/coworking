@@ -3,13 +3,13 @@
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 .news h2 {
-  margin-bottom: 6p3x;
+  margin-bottom: 68px;
 }
 .news__list {
   margin-bottom: 42px;
 }
 .news__item {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 .news__item:last-child {
   margin-bottom: 0;

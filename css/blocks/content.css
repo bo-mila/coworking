@@ -5,5 +5,11 @@
 .content__container {
   display: flex;
   padding-top: 30px;
-  padding-bottom: 57px;
+  padding-bottom: 56px;
+}
+.content__container--main {
+  padding-top: 17px;
+}
+.content__container--tariffs {
+  padding-bottom: 0;
 }

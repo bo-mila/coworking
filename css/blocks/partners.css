@@ -1,18 +1,19 @@
 .partners {
-  width: 100%;
-  padding: 27px 63px 36px 68px;
+  width: 96%;
+  padding: 25px 63px 0 63px;
   border: solid 1px #e8e9ed;
-  margin-bottom: 29px;
+  margin-bottom: 22px;
 }
 .partners__title {
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
-  margin-bottom: 12px;
+  margin-bottom: 37px;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   text-align: center;
   color: #221f1f;
+  text-transform: uppercase;
 }
 .partners__list {
   display: flex;
@@ -21,6 +22,7 @@
   align-items: center;
 }
 .partners__item {
-  padding: 30px 0 22px;
+  /* padding: 30px 0 22px; */
   cursor: pointer;
+  margin-bottom: 35px;
 }

@@ -1,9 +1,9 @@
 .stock {
   background-color: #27273e;
-  padding: 30px 10px;
+  padding: 26px 10px;
   background-image: url('../../img/pattern.png');
   text-align: center;
-  margin-bottom: 29px;
+  margin-bottom: 27px;
 }
 .stock p {
   font-size: 18px;

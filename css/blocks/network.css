@@ -6,12 +6,12 @@
 .network h5 {
   font-size: 14px;
   margin: 0;
-  margin-bottom: 13px;
+  margin-bottom: 8px;
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
 }
 .network__item {
   display: inline-block;
-  /* margin-right: 6px; */
+  margin-right: 6px;
   position: relative;
   background-color: transparent;
   border-radius: 50%;

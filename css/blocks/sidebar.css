@@ -1,11 +1,15 @@
 .sidebar {
-  width: 27%;
+  width: 24%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  margin-right: 25px;
+  margin-right: 17px;
+  /* padding-top: 13px; */
 }
 .sidebar--comments {
-  padding-top: 20px;
+  padding-top: 19px;
+}
+.sidebar--main {
+  padding-top: 13px;
 }

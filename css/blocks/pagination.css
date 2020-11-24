@@ -2,6 +2,7 @@
   text-align: center;
   font-size: 14px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  width: 88%;
 }
 .pagination__display {
   display: inline-block;
